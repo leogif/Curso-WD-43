@@ -1,6 +1,12 @@
 body {
-	color: #333;
+	/* Esse cara, esta setando a cor cinza para texto. 
+	as margens estão automaticas e o tamanho da view esta definida como 940px 
+	para qualquer dispositivo */
+	color: #111; /*Mudei a cor da fonte de #333; para #111;*/
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px; /*Esse cara esta definindo o tamanho da tela em qualquer dispositivo*/
 }
 
 h1 {
@@ -9,6 +15,12 @@ h1 {
 
 h2 {
 	border-bottom: 2px groove #333;
+	/*Groove: um estilo maneiro de borda*/
+}
+
+p {
+	padding: 0 45px;
+	text-indent: 15px;
 }
 
 figure {
@@ -20,3 +32,4 @@ figure {
 figcaption {
 	font-style: italic;
 }
+
