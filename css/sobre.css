@@ -33,3 +33,31 @@ figcaption {
 	font-style: italic;
 }
 
+#centro-distribuicao {
+	/*Isso eliminou o background ao redor da imagem*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 550px;
+}
+
+#centro-distribuicao figcaption {
+	margin-top: 5px;
+}
+
+#rodape {
+	color: #777;
+	margin: 3px 0;
+	padding: 30px 0;
+}
+
+#rodape img {
+	margin-right: 30px;
+	vertical-align: middle;
+}
+
+#familia-pelho {
+	float: right;
+	margin: 0 0 10px 10px;
+	padding: 15px;
+}
