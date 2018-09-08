@@ -8,6 +8,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: top right;
 	font-size: 14px;
+	padding-top: 8px;
 	padding-right: 35px;
 	text-align: right;
 	width: 140px;
@@ -21,4 +22,12 @@ body {
 	color: #003366;
 }
 
-d
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
